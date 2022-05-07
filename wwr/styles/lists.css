@@ -1,0 +1,27 @@
+.awsomeDataList {
+    background-color: pink;
+}
+
+.awsomeDataList dt {
+    font-weight: 900;
+}
+
+.awsomeDataList dd {
+    font-style: italic;
+}
+
+.awsomeDataList dt, .awsomeDataList dd {
+    color: rgb(185, 86, 235);
+}
+
+.listContainer {
+    width: 90%;
+    margin: 0 auto;
+    background-color: bisque;
+    border: 1px solid blue
+}
+.listContainer ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
