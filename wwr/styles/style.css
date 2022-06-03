@@ -31,6 +31,7 @@ nav a {
     color: white;
     text-decoration: none;
     padding: 35px;
+    
 }
 
 #hero-msg h1 ,h4 {
@@ -63,7 +64,7 @@ body {
 }
 
 header {
-    background-color:rgba(65, 85, 50, 0.7);
+    background-color: #1b1e13c5;
     font-family: 'Raleway', sans-serif;
     display: grid;
     grid-template-columns: 150px auto;
@@ -240,8 +241,7 @@ nav {
     grid-column: 1/11;
     grid-row: 4/9;
 }
-
-/* @media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
         height: auto;
@@ -281,4 +281,4 @@ nav {
     footer {
         margin-top: 25px;
     }
-} */
+}
