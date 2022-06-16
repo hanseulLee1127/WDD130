@@ -6,9 +6,9 @@
 
 #logo_link   {
     padding-top: 5px;
-    justify-self: center;
-    align-self: center;
     z-index: 1;
+    background-color: #1b1e13c5;
+    width: 100%;
 }
 
 #content {
@@ -148,6 +148,7 @@ footer a:hover {
     width: 80px;
     height: 80px;
     padding-top: 10px;
+    padding-left: 25%;
 }
 
 footer h3 a:hover {
@@ -282,4 +283,23 @@ nav {
     footer {
         margin-top: 25px;
     }
+}
+
+/* FAQ content */
+
+.FAQ-question {
+    border-top: 5px double;
+    border-bottom: 5px double;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+.FAQ-image2 {
+    width: 80%;
+    padding: 10%;
+}
+
+.FAQ-grid {
+    padding-left: 10%;
+    padding-right: 10%;
 }
