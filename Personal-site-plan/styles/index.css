@@ -1,3 +1,124 @@
-#logo {
-    width: 250px;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Nuosu+SIL&display=swap');
+
+body {
+  background-color:#f1faee;
+  font-family: 'Nuosu SIL', serif;
+  padding: 5px 25px;
+  font-size: 20px;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  grid-column: 1 / 6;
+  grid-row: 2;
+}
+
+footer {
+display: grid;
+grid-template-columns: auto auto 10% 10% 10% ;
+padding: 0.5em;
+}
+
+#footer-siteplan {
+  font-size: 23px;
+}
+
+h1,
+h2,
+h3 {
+  color: black;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  line-height: 1.5;
+  font-size: 25px;
+}
+
+#content {
+  max-width: 940px;
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 110px auto;
+  align-items: center;
+}
+
+nav ul {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  list-style: none;
+}
+ 
+nav a:link,
+nav a:visited {
+  color: black;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+
+main {
+  background-color: #105c73;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+  padding: 1em;
+}
+
+.home-headline-1 {
+  grid-column: 1 / 6;
+  grid-row: 1;
+  text-align: center;
+  font-size: 250%;
+}
+
+h2.home-headline-2 {
+  grid-column: 2 / 3;
+  grid-row: 3;
+  padding: 15px;
+  background-color: #d99292;
+  text-align: center;
+}
+
+h2.home-headline-3 {
+  grid-column: 4 / 5;
+  grid-row: 3;
+  padding: 15px;
+  background-color: #d99292;
+  text-align: center;
+}
+
+#social {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+img.image-2 {
+  grid-column: 2 / 3;
+  grid-row: 4;
+  width: 350px;
+}
+
+img.image-3{
+  grid-column: 4 / 5;
+  grid-row: 4;
+  width: 350px;
+}
+
+.home-paragraph-2 {
+  grid-column: 2 / 3;
+  grid-row: 5;
+  line-height: 2;
+}
+
+.home-paragraph-3 {
+  grid-column: 4 / 6;
+  grid-row: 5;
+  line-height: 2;
+}
